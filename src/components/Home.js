@@ -14,7 +14,7 @@ const Home= ()=> {
             </p>
             <Container>
                 <Button color= "primary">
-                    Lets start
+                    Add Food
                 </Button>
             </Container>
 
