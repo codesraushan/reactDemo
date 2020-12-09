@@ -19,6 +19,12 @@ const AllFood = () => {
                 <th sm="2">
                 Carbs
                 </th>
+                <th>
+                <Button>
+                Del
+            </Button>
+                </th>
+              
 
                
                 
@@ -27,6 +33,7 @@ const AllFood = () => {
                 </th> */}
                 
             </tr>
+          
           
             </tbody>
         </Table>

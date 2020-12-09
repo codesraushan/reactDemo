@@ -6,7 +6,7 @@ const Food = () => {
         <Table bordered className = "bg-success">
             <thead>
             <tr>
-                <th sm="4">
+                <th sm="3">
                 FOOD
                 </th>
                 <th sm="2">
