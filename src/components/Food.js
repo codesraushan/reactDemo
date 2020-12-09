@@ -1,33 +1,29 @@
 import React from "react";
-import { Card, CardBody, CardSubtitle, CardText, Badge, Row, th, Table, Button } from "reactstrap";
+import { Table } from "reactstrap";
 
-const Food = () => {
+const Food = ({food}) => {
     return(
-        <Table bordered className = "bg-success">
-            <thead>
+
+        <Table bordered>
+            <tbody>
             <tr>
-                <th sm="3">
-                FOOD
+                <th sm="4">
+                {food.item}
                 </th>
                 <th sm="2">
-                Calories
+                {food.calories}
                 </th>
                 <th sm="2">
-                Proteins
+                {food.proteins}
                 </th>
-                
                 <th sm="2">
-                Carbs
+                {food.carbs}
                 </th>
-                
-                {/* <th sm="2">
-                <h3><Badge>Fats</Badge></h3>
-                </th> */}
                 
             </tr>
-        
-            
-            </thead>
+          
+          
+            </tbody>
         </Table>
 
     );

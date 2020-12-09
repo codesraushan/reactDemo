@@ -8,17 +8,17 @@ const Menu = () =>{
             <Link className="list-group-item list-group-item-action" tag ="a" to= "/" action >
                 Home
             </Link>
-            <Link className="list-group-item list-group-item-action" tag ="a" to= "/food" action>
+            <Link className="list-group-item list-group-item-action" tag ="a" to= "/breakfast" action>
                 BreakFast
             </Link>
-            <Link className="list-group-item list-group-item-action" tag ="a" to= "/food" action>
+            <Link className="list-group-item list-group-item-action" tag ="a" to= "/lunch" action>
                 Lunch
             </Link>
-            <Link className="list-group-item list-group-item-action" tag ="a" to= "/food" action>
+            <Link className="list-group-item list-group-item-action" tag ="a" to= "/snacks" action>
                 Snacks
             </Link>
             
-            <Link className="list-group-item list-group-item-action" tag ="a" to= "/food" action>
+            <Link className="list-group-item list-group-item-action" tag ="a" to= "/dinner" action>
                 Dinner
             </Link>
         </ListGroup>
